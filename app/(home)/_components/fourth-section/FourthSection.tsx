@@ -4,9 +4,9 @@ import { SectionTitle } from "../SectionTitle";
 
 export const FourthSection = () => {
   return (
-    <section className="w-full bg-[#f7f8fa] py-28">
+    <section className="bg-gray-2 w-full py-24">
       <SectionTitle
-        title="왜 다른가?"
+        title="왜 다를까?"
         description="엘리오 메이커스만의 차별점"
       />
       <div className="mx-auto max-w-6xl px-6">
@@ -27,7 +27,7 @@ export const FourthSection = () => {
                   <h3 className="text-gray-9 text-xl font-semibold">
                     {item.title}
                   </h3>
-                  <p className="text-gray-6 leading-5.5 break-keep">
+                  <p className="text-gray-5 leading-middlePlus break-keep">
                     {item.desc}
                   </p>
                 </div>

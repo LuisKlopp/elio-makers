@@ -1,3 +1,5 @@
+import { JoinButton } from "@/components/button/JoinButton";
+
 export const HeroSectionContents = () => {
   return (
     <div className="relative z-10 flex flex-col items-center rounded-xl bg-black/60 p-24 text-center text-white">
@@ -20,9 +22,7 @@ export const HeroSectionContents = () => {
         직접 작동하는 웹을 만들어보는 프로그램입니다.
       </p>
 
-      <button className="box-shadow-2 btn-press-in bg-primaryBackColor cursor-pointer rounded-xl px-10 py-3 text-lg font-semibold transition-colors duration-300 ease-out hover:bg-red-500">
-        지원하기
-      </button>
+      <JoinButton />
 
       <div className="mt-14 flex gap-8 text-sm text-white">
         <div className="flex items-center gap-2">

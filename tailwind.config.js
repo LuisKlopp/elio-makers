@@ -26,7 +26,11 @@ const config = {
       zIndex: {
         5: "5",
       },
-
+      lineHeight: {
+        tightPlus: "1.35",
+        middlePlus: "1.55",
+        relaxedPlus: "1.75",
+      },
       boxShadow: {
         "soft-card":
           "0 4px 20px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04), 0 -1px 4px rgba(0, 0, 0, 0.02)",

@@ -14,8 +14,8 @@ export const SectionTitle = ({
   isDarkMode,
 }: SectionTitleProps) => {
   return (
-    <div className="mb-20 text-center">
-      <Divider />
+    <div className="mb-12 text-center">
+      <Divider className="mx-auto" />
       <h2
         className={cn(
           "text-4xl font-bold text-black md:text-5xl",
