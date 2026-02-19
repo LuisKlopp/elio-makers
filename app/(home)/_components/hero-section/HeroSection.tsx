@@ -14,7 +14,7 @@ export const HeroSection = () => {
         priority
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-black/30" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/20 to-black/70" />
       <HeroSectionContents />
     </div>
   );

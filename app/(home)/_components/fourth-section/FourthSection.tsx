@@ -28,7 +28,14 @@ export const FourthSection = () => {
                     {item.title}
                   </h3>
                   <p className="text-gray-5 leading-middlePlus break-keep">
-                    {item.desc}
+                    {item.desc
+                      .split(".")
+                      .filter((sentence) => sentence.trim().length > 0)
+                      .map((sentence, idx) => (
+                        <span key={idx} className="block">
+                          {sentence.trim()}.
+                        </span>
+                      ))}
                   </p>
                 </div>
               </div>
