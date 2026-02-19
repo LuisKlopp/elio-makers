@@ -132,10 +132,10 @@ body,
 }
 
 .btn-press-in {
-  cursor: pointer;
   transition:
     transform 0.12s ease,
     box-shadow 0.12s ease,
+    background-color 0.2s ease,
     filter 0.12s ease;
 }
 

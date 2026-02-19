@@ -2,6 +2,7 @@ import "../styles/globals.css";
 
 import type { Metadata } from "next";
 
+import { Header } from "@/components/header/header";
 import ReactQueryProvider from "@/providers/react-query-provider";
 import { dmDisplay, pretendard } from "@/public/fonts/fonts";
 
@@ -18,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={`${pretendard.className} ${dmDisplay.variable}`}>
-        <ReactQueryProvider>{children}</ReactQueryProvider>
+        <ReactQueryProvider>
+          <Header />
+          {children}
+        </ReactQueryProvider>
       </body>
     </html>
   );

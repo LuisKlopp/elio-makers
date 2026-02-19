@@ -71,18 +71,19 @@ const config = {
 
       colors: {
         gray: {
-          1: "#FAFAFA",
-          2: "#F2F2F2",
-          3: "#E0E0E0",
-          4: "#CCCCCC",
-          5: "#999999",
-          6: "#666666",
-          7: "#444444",
-          8: "#222222",
+          1: "#F3F4F6",
+          2: "#E5E7EB",
+          3: "#D1D5DB",
+          4: "#9CA3AF",
+          5: "#6B7280",
+          6: "#4B5563",
+          7: "#374151",
+          8: "#1F2937",
+          9: "#111827",
         },
-
+        primaryBackColor: "#cb1717",
+        primaryTextColor: "#dc2323",
         lightPurple: "#c9bdcb",
-
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
